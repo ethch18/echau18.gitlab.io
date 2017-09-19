@@ -10,8 +10,6 @@ pages:
   script:
   - npm update
   - npm install -g brunch
-  - npm install -g babel-brunch
-  - npm install -g babel-preset-react
   - npm install
   - brunch build --production
   artifacts:
