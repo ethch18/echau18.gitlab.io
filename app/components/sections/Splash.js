@@ -20,7 +20,7 @@ export default function Splash(props) {
                     <div className="splash-headline">{headline}</div>
                 </div>
                 <div className="splash-rightcorner splash-corner" />
-            </div>    
+            </div>
         </div>
     )
 }
