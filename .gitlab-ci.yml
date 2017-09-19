@@ -2,18 +2,27 @@
 # Full project: https://gitlab.com/pages/brunch
 image: node:8.5.0
 
-pages:
-  cache:
-    paths:
-    - node_modules/
+cache:
+  paths:
+  - node_modules/
+script:
+- npm update
+- npm install -g brunch
+- npm install
+- brunch build --production
 
-  script:
-  - npm update
-  - npm install -g brunch
-  - npm install
-  - brunch build --production
+deploy:
+  environment: prod
   artifacts:
     paths:
     - public
   only:
+  - master
+
+pages:
+  environment: stage
+  artifacts:
+    paths:
+    - test/public
+  except:
   - master
