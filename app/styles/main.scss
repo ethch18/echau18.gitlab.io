@@ -1,0 +1,15 @@
+@import 'splash';
+@import 'variables';
+@import 'animations';
+
+.mainpage-wrapper {
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("banner.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("banner.jpg");
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("banner.jpg");
+    background-image: linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("banner.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0;
+}
