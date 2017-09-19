@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MainPage from 'components/MainPage';
+import MainPage from './components/MainPage';
 
 ReactDOM.render(
-  <MainPage />,
+  <MainPage data={require('./data/data.json')}/>,
   document.getElementById('root')
 );

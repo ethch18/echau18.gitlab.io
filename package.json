@@ -1,9 +1,9 @@
 {
-  "name": "brunch-app",
-  "description": "Brunch.io application",
+  "name": "echau18.github.io",
+  "description": "personal portfolio site",
   "private": true,
-  "author": "Brunch",
-  "version": "0.0.1",
+  "author": "echau18",
+  "version": "1.0.0",
   "repository": "",
   "scripts": {
     "start": "brunch watch --server",
@@ -21,6 +21,8 @@
     "babel-preset-react": "^6.24.1",
     "brunch": "^2",
     "clean-css-brunch": "^2",
+    "json-brunch": "^1.5.4",
+    "prop-types": "^15.5.10",
     "react-bootstrap": "^0.31.3",
     "sass-brunch": "^2.10.4",
     "uglify-js-brunch": "^2"
