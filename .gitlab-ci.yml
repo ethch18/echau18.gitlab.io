@@ -9,9 +9,10 @@ pages:
 
   script:
   - npm update
-  - npm install --save-dev brunch
-  - npm install --save-dev babel-brunch
-  - npm install --save-dev babel-preset-react
+  - npm install -g brunch
+  - npm install -g babel-brunch
+  - npm install -g babel-preset-react
+  - npm install
   - brunch build --production
   artifacts:
     paths:
