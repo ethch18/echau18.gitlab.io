@@ -3,7 +3,7 @@
 image: node:8.5.0
 
 before_script:
-- apt-get update && apt-get install ruby-sass
+- apt-get -qq update && apt-get -qq install -y ruby-sass
 
 pages:
   environment: prod
