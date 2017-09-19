@@ -2,7 +2,7 @@
 # Full project: https://gitlab.com/pages/brunch
 image: node:8.5.0
 
-deploy:
+pages:
   environment: prod
   cache:
     paths:
@@ -19,7 +19,7 @@ deploy:
   only:
   - master
 
-pages:
+testing:
   environment: stage
   cache:
     paths:
