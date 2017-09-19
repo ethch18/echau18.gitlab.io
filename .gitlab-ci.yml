@@ -3,6 +3,7 @@
 image: node:8.5.0
 
 deploy:
+  environment: prod
   cache:
     paths:
     - node_modules/
@@ -19,6 +20,7 @@ deploy:
   - master
 
 pages:
+  environment: stage
   cache:
     paths:
     - test/node_modules/
@@ -28,7 +30,6 @@ pages:
   - npm install -g brunch
   - npm install
   - brunch build --production
-  environment: stage
   artifacts:
     paths:
     - test/public
