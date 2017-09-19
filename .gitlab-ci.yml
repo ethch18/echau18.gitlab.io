@@ -2,6 +2,9 @@
 # Full project: https://gitlab.com/pages/brunch
 image: node:8.5.0
 
+before_script:
+- apt-get update && apt-get install sass
+
 pages:
   environment: prod
   cache:
