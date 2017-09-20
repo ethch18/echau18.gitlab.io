@@ -43,10 +43,10 @@ export default function ProjectItem(props) {
     return (
         <div className="projectitem">
             <Row>
-                <Col xs={12} md={7}>
+                <Col className="nopadding projectitem-imagewrapper" xs={12} md={6}>
                     <img className="projectitem-image shadow" src={fullSizeImage} />
                 </Col>
-                <Col xs={12} md={5}>
+                <Col className="projectitem-contents" xs={12} md={6}>
                     <div className="projectitem-title">{title}</div>
                     <div className="projectitem-subtitle">{subtitle}</div>
                     <div className="projectitem-status">

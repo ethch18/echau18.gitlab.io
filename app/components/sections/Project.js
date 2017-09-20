@@ -24,6 +24,7 @@ export default class Project extends React.Component {
         return (
             <div className="project-outerwrapper">
                 <div className="project-innerwrapper shadow">
+                    <div className="project-headline">My Projects</div>
                     <ProjectList 
                         onChange={this.updateCurrent}
                         projects={this.props.projects}

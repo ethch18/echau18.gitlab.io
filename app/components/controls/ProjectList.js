@@ -15,13 +15,13 @@ export default function ProjectList(props) {
     for (let i = 0; i < projects.length; i++) {
         const current = projects[i];
         const selectedClass = i === props.selectedIndex ? 
-            'projectlist-selected' :
-            'projectlist-unselected';
+            'projectlist-selected' : '';
         previews.push(
             <Col 
                 onClick={() => props.onChange(i)}
                 key={`list-${i}`}
                 xs={12 / projects.length}
+                className="nopadding"
             >
                 <div className={`projectlist-item ${selectedClass}`}>
                     <img className="projectlist-preview" src={`${current.imageBasePath}preview.png`} />
