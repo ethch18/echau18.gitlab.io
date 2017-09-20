@@ -58,3 +58,8 @@ export default function Bio(props) {
 }
 
 Bio.propTypes = propTypes;
+
+Bio.defaultProps = {
+    sublines: [],
+    rules: [],
+}

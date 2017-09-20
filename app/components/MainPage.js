@@ -4,7 +4,7 @@ import Splash from './sections/Splash';
 import Bio from './sections/Bio';
 
 const propTypes = {
-    data: PropTypes.object,
+    data: PropTypes.object.isRequired,
 }
 
 export default class MainPage extends React.Component {
