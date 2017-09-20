@@ -3,5 +3,49 @@
         "firstName": "Ethan",
         "lastName": "Chau",
         "headline": "Software Engineer | Linguist | Musician"
+    },
+    "bio": {
+        "headline": "Hi, I'm Ethan.",
+        "sublines": [
+            ["I study Computer Science and Linguistics at the ", "{0}", "."],
+            ["In my free time, I ride ", "{0}", ", ", "{1}", ", and ", "{2}", "."],
+            ["I recently completed a ", "{0}", " software engineering internship at ", "{1}", "."],
+            ["Fields of Interest: Natural Language Processing, Machine Learning"]
+        ],
+        "rules": [
+            {
+                "University of Washington": {
+                    "index": 1,
+                    "link": "https://www.uw.edu",
+                    "color": "#663ab6"
+                }
+            },
+            {
+                "public transit": {
+                    "index": 1,                    
+                    "color": "#689f38"
+                },
+                "learn languages": {
+                    "index": 3,
+                    "color": "#8bc34a"
+                },
+                "play music": {
+                    "index": 5,
+                    "color": "#ccdb39"
+                }
+            },
+            {
+                "full-stack": {
+                    "index": 1,
+                    "color": "#5f7c8a"
+                },
+                "Indeed.com": {
+                    "index": 3,
+                    "link": "https://www.indeed.com",
+                    "color": "#2164f3"
+                }
+            },
+            {}
+        ]
     }
 }

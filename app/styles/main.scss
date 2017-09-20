@@ -1,6 +1,7 @@
 @import 'splash';
 @import 'variables';
 @import 'animations';
+@import 'bio';
 
 .mainpage-wrapper {
     background-image: -moz-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("banner.jpg");
@@ -12,4 +13,16 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 0;
+}
+
+#root {
+    a {
+        border-bottom: dotted 1px;
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    a:hover {
+        border-bottom: none;
+    }
 }

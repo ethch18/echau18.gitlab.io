@@ -8,7 +8,10 @@ $secondary-text-color: #757575;
 $divider-color: #BDBDBD;
 
 $mobile-small: 320px;
+$nonmobile-small: $mobile-small + 1px;
 $mobile-med: 375px;
+$nonmobile-med: $mobile-med + 1px;
 $mobile-large: 425px;
 $nonmobile: $mobile-large + 1px;
 $tablet: 768px;
+$nontablet: $tablet + 1px;

@@ -1,9 +1,9 @@
 import React from 'react';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 const propTypes = {
-    firstName: PropTypes.string,
-    lastName: PropTypes.string,
+    firstName: PropTypes.string.isRequired,
+    lastName: PropTypes.string.isRequired,
     headline: PropTypes.string,
 };
 
@@ -17,7 +17,7 @@ export default function Splash(props) {
                 <div className="splash-leftcorner splash-corner" />
                 <div className="splash-content">
                     <div className="splash-heading">{combinedName}</div>
-                    <div className="splash-headline">{headline}</div>
+                    {headline && <div className="splash-headline">{headline}</div>}
                 </div>
                 <div className="splash-rightcorner splash-corner" />
             </div>
