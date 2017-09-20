@@ -7,7 +7,6 @@
 .splash-heading {
     font-size: 70px;
     font-family: 'Libre Barcode 39 Text', cursive;
-    text-align: center;
     margin: 10px auto;
 
     @media(min-width: $nonmobile) {
@@ -19,7 +18,6 @@
     margin-top: -15px;
     font-size: 20px;
     font-family: 'Poiret One', cursive;
-    text-align: center;
 }
 
 .splash-leftcorner {
@@ -51,6 +49,7 @@
     width: 50%;
     max-width: 500px;
     color: white;
+    text-align: center;
 }
 
 .splash-outerwrapper {
