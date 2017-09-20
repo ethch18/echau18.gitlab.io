@@ -47,5 +47,100 @@
             },
             {}
         ]
+    },
+    "projects": {
+        "projects": [
+            {
+                "title": "Oh My English",
+                "subtitle": "A dynamic English phrase generator",
+                "isActive": true,
+                "codeLink": "https://github.com/ethch18/OhMyEnglish-Public",
+                "imageBasePath": "../../projects/ohmyenglish",
+                "imageType": ".jpg",
+                "details": [
+                    ["Generates English sentences based on an ever-expanding word database"],
+                    ["Developed a ", "{0}", " wordlist generator and parsing system"],
+                    ["Extended from the ", "{0}", " assignment from UW's ", "{1}"]
+                ],
+                "rules": [
+                    {},
+                    {
+                        "Java": {
+                            "index" : 1,
+                            "bold": true
+                        }
+                    },
+                    {
+                        "\"Grammar\"": {
+                            "index": 1,
+                            "link": "http://courses.cs.washington.edu/courses/cse143/16au/homework/5/spec.pdf"
+                        },
+                        "CSE 143, AU '16": {
+                            "index" : 3,
+                            "link": "http://courses.cs.washington.edu/courses/cse143/16au/"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Roast My Pantry",
+                "subtitle": "A beautiful recipe search engine",
+                "isActive": false,
+                "codeLink": "https://github.com/DRPropulsion/roastmypantry/tree/gh-pages",
+                "activeLink": "http://drpropulsion.github.io/roastmypantry",
+                "imageBasePath": "../../projects/roastmypantry",
+                "imageType": ".jpg",
+                "details": [
+                    ["Aggregates a list of recipes with the provided ingredients"],
+                    ["Developed with ", "HTML", ", ", "CSS", ", and ", "JavaScript"],
+                    ["Winner of \"0-60\" Award, CodeDay-Redmond, Spring 2016"]
+                ],
+                "rules": [
+                    {},
+                    {
+                        "HTML": {
+                            "index" : 1,
+                            "bold": true
+                        },
+                        "CSS": {
+                            "index" : 3,
+                            "bold": true
+                        },
+                        "JavaScript": {
+                            "index" : 5,
+                            "bold": true
+                        }
+                    },
+                    {}
+                ]
+            },
+            {
+                "title": "EVC Charge",
+                "subtitle": "A simple, free locator for electric vehicle charging stations",
+                "isActive": false,
+                "codeLink": "https://github.com/ethch18/EVC",
+                "imageBasePath": "../../projects/evccharge",
+                "imageType": ".jpg",
+                "details": [
+                    ["Finds and details EV chargers in a given area"],
+                    ["Developed with ", "C#", " and ", "XAML", " on the Windows \"Metro\" Platform"],
+                    ["Winner of \"Best Application\" Award, CodeDay-Downtown Seattle, Spring 2015"]
+                ],
+                "rules": [
+                    {},
+                    {
+                        "C#": {
+                            "index" : 1,
+                            "bold": true
+                        },
+                        "XAML": {
+                            "index" : 3,
+                            "bold": true
+                        }
+                    },
+                    {}
+                ]
+            }
+        ]
     }
 }

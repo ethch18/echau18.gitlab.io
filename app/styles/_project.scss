@@ -1,0 +1,82 @@
+@import 'variables';
+
+.project-outerwrapper {
+    height: 100vh;
+    min-height: 600px;
+    padding: 50px;
+}
+
+.project-innerwrapper {
+    max-width: 1200px;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px;
+    background: $dark-grey;
+    color: $tertiary-text-color;    
+}
+
+.projectlist {
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+}
+
+.projectlist-item {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projectlist-selected {
+    height: 80px;
+    width: 80px;
+}
+
+.projectlist-unselected {
+    margin-top: 10px;
+    height: 60px;
+    width: 60px;
+}
+
+.projectlist-preview {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 6px;
+}
+
+.projectitem {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+}
+
+.projectitem-image {
+    max-width: 100%;
+    @media(max-width: $nonmedium) {
+        margin-bottom: 50px;
+    }
+}
+
+.projectitem-title {
+    font-family: 'Poiret One', cursive;
+    font-size: 40px;    
+}
+
+.projectitem-subtitle {
+    font-size: 20px;
+}
+
+.projectitem-statusico {
+    margin-top: -4px;
+}
+
+.projectitem-status {
+    margin-bottom: 5px;
+}
+
+.projectitem-details {
+    ul {
+        padding-left: 15px;
+    }
+}
