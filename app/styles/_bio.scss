@@ -3,9 +3,12 @@
 .bio-outerwrapper {
     position: relative;
     background: $default-primary-color;
+    height: auto;
     @media(min-width: $nonmobile) {
-        height: 100vh;
-        min-height: 600px;
+        min-height: 800px;
+        @media(min-height: 600px) {
+            min-height: 100vh;
+        }
     }
     @media(max-width: $mobile-large) and (min-width: $nonmobile-med) {
         min-height: 900px;
@@ -29,10 +32,6 @@
     color: $text-primary-color;
     text-align: center;
     background: white;
-    // adapted from w3 schools
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.21),
-         0 6px 20px 0 rgba(0, 0, 0, 0.2),
-         0 8px 32px 0 rgba(0, 0, 0, 0.19);
     
     @media(min-width: $nontablet) {
         height: 75%;
@@ -51,7 +50,6 @@
 }
 
 .bio-subline {
-    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     margin-bottom: 5px;  
 }

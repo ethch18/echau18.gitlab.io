@@ -1,0 +1,127 @@
+@import 'variables';
+
+#root {
+    .project-outerwrapper {
+        height: auto;        
+        @media(max-width: $nonmedium) {
+            min-height: 800px;
+        }
+        @media(min-width: $medium) {
+            min-height: 600px;
+            @media(min-height: 600px) {
+                min-height: 100vh;
+            }
+        }
+        @media(max-width: $tablet) {
+            padding: 30px;
+            
+        }
+        @media(min-width: $nontablet) {
+            padding: 50px;
+        }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .project-innerwrapper {
+        padding: 50px;
+        background: $dark-grey;
+        color: $tertiary-text-color;
+        @media(max-width: $tablet) {
+            width: auto;
+        }
+        @media(min-width: $nontablet) {
+            max-width: 1200px;
+            width: 75%;
+        }
+    }
+
+    .project-headline {
+        font-family: 'Poiret One', cursive;
+        font-size: 70px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    
+    .projectlist {
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 400px;
+    }
+    
+    .projectlist-item {
+        margin-left: auto;
+        margin-right: auto;
+        @media(max-width: $mobile-med) {
+            height: 60px;
+            width: 60px;
+        }
+        @media(min-width: $nonmobile-med) {
+            height: 70px;
+            width: 70px;
+        }
+    }
+    
+    .projectlist-selected {
+        opacity: 0.4;
+        filter: alpha(opacity=40);
+    
+    }
+
+    .projectlist-preview {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 6px;
+    }
+    
+    .projectitem {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 15px;
+    }
+
+    .projectitem-imagewrapper {
+        @media(min-width: $medium) {
+           margin-top: 15px;
+        }
+    }
+    
+    .projectitem-image {
+        max-width: 100%;    
+        @media(max-width: $nonmedium) {
+            margin-bottom: 50px;
+        }
+    }
+    
+    .projectitem-contents {
+        @media(max-width: $nonmobile-med) {
+            padding: 0;
+        }
+    }
+    
+    .projectitem-title {
+        font-family: 'Poiret One', cursive;
+        font-size: 40px;    
+    }
+    
+    .projectitem-subtitle {
+        font-size: 20px;
+    }
+    
+    .projectitem-statusico {
+        margin-top: -4px;
+    }
+    
+    .projectitem-status {
+        margin-bottom: 5px;
+    }
+    
+    .projectitem-details {
+        ul {
+            padding-left: 15px;
+        }
+    }
+    
+}

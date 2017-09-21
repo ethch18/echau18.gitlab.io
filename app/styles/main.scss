@@ -2,6 +2,7 @@
 @import 'variables';
 @import 'animations';
 @import 'bio';
+@import 'project';
 
 .mainpage-wrapper {
     background-image: -moz-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("banner.jpg");
@@ -15,7 +16,19 @@
     padding-top: 0;
 }
 
+.shadow {
+    // adapted from w3 schools
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.21),
+    0 6px 20px 0 rgba(0, 0, 0, 0.2),
+    0 8px 32px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tinymargin-left {
+    margin-left: 5px;
+}
+
 #root {
+    font-family: 'Raleway', sans-serif;    
     a {
         border-bottom: dotted 1px;
         text-decoration: none;
@@ -25,4 +38,14 @@
     a:hover {
         border-bottom: none;
     }
+
+    a.icon {
+        border: none;
+    }
+
+    .nopadding {
+        padding: 0;
+    }
 }
+
+
