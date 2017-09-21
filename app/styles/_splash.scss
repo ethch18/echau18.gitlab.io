@@ -1,58 +1,60 @@
 @import 'variables';
 
-.splash-content {
-    animation: expand 2s ease-out;     
-}
-
-.splash-heading {
-    font-size: 70px;
-    font-family: 'Libre Barcode 39 Text', cursive;
-    margin: 10px auto;
-
-    @media(min-width: $nonmobile) {
-        max-width: 80%;        
+#root {
+    .splash-content {
+        animation: expand 2s ease-out;     
     }
-}
-
-.splash-headline {
-    margin-top: -15px;
-    font-size: 20px;
-    font-family: 'Poiret One', cursive;
-}
-
-.splash-leftcorner {
-    background: url(leftcorner.png);
-    background: url(leftcorner.svg),
-        linear-gradient(transparent, transparent);
-    background-repeat: no-repeat;
-}
-
-.splash-rightcorner {
-    float: right;
-    background: url(rightcorner.png);
-    background: url(rightcorner.svg),
-        linear-gradient(transparent, transparent);
-    background-repeat: no-repeat;        
-}
-
-.splash-corner {
-    height: 40px;
-    width: 40px;
-    animation: fade 1s linear;
-}
-
-.splash-innerwrapper {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-    max-width: 500px;
-    color: white;
-    text-align: center;
-}
-
-.splash-outerwrapper {
-    height: 100vh;
-    position: relative;
+    
+    .splash-heading {
+        font-size: 70px;
+        font-family: 'Libre Barcode 39 Text', cursive;
+        margin: 10px auto;
+    
+        @media(min-width: $nonmobile) {
+            max-width: 80%;        
+        }
+    }
+    
+    .splash-headline {
+        margin-top: -15px;
+        font-size: 20px;
+        font-family: 'Poiret One', cursive;
+    }
+    
+    .splash-leftcorner {
+        background: url(leftcorner.png);
+        background: url(leftcorner.svg),
+            linear-gradient(transparent, transparent);
+        background-repeat: no-repeat;
+    }
+    
+    .splash-rightcorner {
+        float: right;
+        background: url(rightcorner.png);
+        background: url(rightcorner.svg),
+            linear-gradient(transparent, transparent);
+        background-repeat: no-repeat;        
+    }
+    
+    .splash-corner {
+        height: 40px;
+        width: 40px;
+        animation: fade 1s linear;
+    }
+    
+    .splash-innerwrapper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+        max-width: 500px;
+        color: white;
+        text-align: center;
+    }
+    
+    .splash-outerwrapper {
+        height: 100vh;
+        position: relative;
+    }
 }

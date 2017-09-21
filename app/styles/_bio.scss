@@ -1,55 +1,57 @@
 @import 'variables';
 
-.bio-outerwrapper {
-    position: relative;
-    background: $default-primary-color;
-    height: auto;
-    @media(min-width: $nonmobile) {
-        min-height: 800px;
-        @media(min-height: 600px) {
-            min-height: 100vh;
+#root {
+    .bio-outerwrapper {
+        position: relative;
+        background: $default-primary-color;
+        height: auto;
+        @media(min-width: $nonmobile) {
+            min-height: 800px;
+            @media(min-height: 600px) {
+                min-height: 100vh;
+            }
+        }
+        @media(max-width: $mobile-large) and (min-width: $nonmobile-med) {
+            min-height: 900px;
+        }
+        @media(max-width: $mobile-med) and (min-width: $nonmobile-small) {
+            min-height: 1000px;
+        }
+        @media(max-width: $mobile-small) {
+            min-height: 1200px;
         }
     }
-    @media(max-width: $mobile-large) and (min-width: $nonmobile-med) {
-        min-height: 900px;
-    }
-    @media(max-width: $mobile-med) and (min-width: $nonmobile-small) {
-        min-height: 1000px;
-    }
-    @media(max-width: $mobile-small) {
-        min-height: 1200px;
-    }
-}
-
-.bio-innerwrapper {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 75%;
-    max-width: 700px;
-    padding: 50px;
-    color: $text-primary-color;
-    text-align: center;
-    background: white;
     
-    @media(min-width: $nontablet) {
-        height: 75%;
-        min-height: calc(100% - 200px);
+    .bio-innerwrapper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 75%;
+        max-width: 700px;
+        padding: 50px;
+        color: $text-primary-color;
+        text-align: center;
+        background: white;
+        
+        @media(min-width: $nontablet) {
+            height: 75%;
+            min-height: calc(100% - 200px);
+        }
+        @media(max-width: $tablet) {
+            height: auto;
+            min-height: 75%;
+        }
     }
-    @media(max-width: $tablet) {
-        height: auto;
-        min-height: 75%;
+    
+    .bio-headline {
+        font-family: 'Poiret One', cursive;
+        font-size: 70px;
+        margin-bottom: 50px;
     }
-}
-
-.bio-headline {
-    font-family: 'Poiret One', cursive;
-    font-size: 70px;
-    margin-bottom: 50px;
-}
-
-.bio-subline {
-    font-size: 18px;
-    margin-bottom: 5px;  
+    
+    .bio-subline {
+        font-size: 18px;
+        margin-bottom: 5px;  
+    }
 }
