@@ -4,6 +4,7 @@ import Splash from './sections/Splash';
 import Bio from './sections/Bio';
 import Project from './sections/Project';
 import Contact from './sections/Contact';
+import Footer from './sections/Footer';
 
 const propTypes = {
     data: PropTypes.object.isRequired,
@@ -52,6 +53,16 @@ export default class MainPage extends React.Component {
             />
         )
     }
+
+    getFooter() {
+        const { footertext, copyright } = this.props.data.footer;
+        return (
+            <Footer
+                footertext={footertext}
+                copyright={copyright}
+            />
+        )
+    }
     
     render() {
         return (
@@ -60,6 +71,7 @@ export default class MainPage extends React.Component {
                 {this.getBio()}
                 {this.getProjects()}
                 {this.getContact()}
+                {this.getFooter()}
             </div>
         );
     }
