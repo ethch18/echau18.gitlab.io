@@ -158,5 +158,9 @@
             "university": "https://www.cs.uw.edu",
             "envelope-o": "mailto:echau18@outlook.com"
         }
+    },
+    "footer": {
+        "footertext": "Thanks for visiting!",
+        "copyright": "Ethan Chau 2017"
     }
 }
