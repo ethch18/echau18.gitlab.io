@@ -3,6 +3,7 @@
 @import 'animations';
 @import 'bio';
 @import 'project';
+@import 'contact';
 
 .mainpage-wrapper {
     background-image: -moz-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("banner.jpg");
@@ -45,6 +46,11 @@
 
     .nopadding {
         padding: 0;
+    }
+
+    .col-centered {
+        float: none;
+        margin: 0 auto;
     }
 }
 
