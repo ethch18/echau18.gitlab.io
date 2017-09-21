@@ -3,9 +3,12 @@
 .bio-outerwrapper {
     position: relative;
     background: $default-primary-color;
+    height: auto;
     @media(min-width: $nonmobile) {
-        height: 100vh;
-        min-height: 600px;
+        min-height: 800px;
+        @media(min-height: 600px) {
+            min-height: 100vh;
+        }
     }
     @media(max-width: $mobile-large) and (min-width: $nonmobile-med) {
         min-height: 900px;

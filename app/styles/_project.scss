@@ -2,21 +2,29 @@
 
 #root {
     .project-outerwrapper {
-        @media(max-width: $tablet) {
-            height: auto;
+        height: auto;        
+        @media(max-width: $nonmedium) {
             min-height: 800px;
+        }
+        @media(min-width: $medium) {
+            min-height: 600px;
+            @media(min-height: 600px) {
+                min-height: 100vh;
+            }
+        }
+        @media(max-width: $tablet) {
             padding: 30px;
+            
         }
         @media(min-width: $nontablet) {
-            height: 100vh;
-            min-height: 600px;
-            padding: 50px;        
+            padding: 50px;
         }
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
     .project-innerwrapper {
-        margin-right: auto;
-        margin-left: auto;
         padding: 50px;
         background: $dark-grey;
         color: $tertiary-text-color;
@@ -57,8 +65,8 @@
     }
     
     .projectlist-selected {
-        opacity: 0.3;
-        filter: alpha(opacity=30);
+        opacity: 0.4;
+        filter: alpha(opacity=40);
     
     }
 
