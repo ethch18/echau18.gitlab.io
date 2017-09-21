@@ -92,7 +92,7 @@
                 "imageType": ".jpg",
                 "details": [
                     ["Aggregates a list of recipes with the provided ingredients"],
-                    ["Developed with ", "HTML", ", ", "CSS", ", and ", "JavaScript"],
+                    ["Developed with ", "{0}", ", ", "{1}", ", and ", "{2}"],
                     ["Winner of \"0-60\" Award, CodeDay-Redmond, Spring 2016"]
                 ],
                 "rules": [
@@ -123,7 +123,7 @@
                 "imageType": ".jpg",
                 "details": [
                     ["Finds and details EV chargers in a given area"],
-                    ["Developed with ", "C#", " and ", "XAML", " on the Windows \"Metro\" Platform"],
+                    ["Developed with ", "{0}", " and ", "{1}", " on the Windows \"Metro\" Platform"],
                     ["Winner of \"Best Application\" Award, CodeDay-Downtown Seattle, Spring 2015"]
                 ],
                 "rules": [
