@@ -10,9 +10,9 @@ export default function Footer(props) {
     const { footertext, copyright } = props;
     return (
         <div className="footer-outerwrapper">
-            <div className="footer-innerwrapper">
+            <div className="footer-innerwrapper shadow">
                 {footertext && <div className="footer-maintext">{footertext}</div>}
-                {copyright && <div className="footer-copyright">{`&#169;${copyright}`}</div>}
+                {copyright && <div className="footer-copyright">{`\u00a9 ${copyright}`}</div>}
             </div>
         </div>
     );

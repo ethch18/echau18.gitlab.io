@@ -2,18 +2,28 @@
 
 #root {
     .footer-outerwrapper {
-
+        margin-top: 125px;
+        @media(max-width: $tablet) {
+            padding: 0 30px;
+            
+        }
+        @media(min-width: $nontablet) {
+            padding: 0 50px;
+        }
+        display: flex;
+        justify-content: center;
     }
 
     .footer-innerwrapper {
-
+        padding: 30px 40px;
+        background: $dark-grey;
+        color: $tertiary-text-color;
+        max-width: 1200px;
+        width: 75%;
+        text-align: center;
     }
 
     .footer-maintext {
-
-    }
-
-    .footer-copyright {
-        
+        font-size: 20px;
     }
 }
