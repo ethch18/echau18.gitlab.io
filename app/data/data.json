@@ -142,5 +142,21 @@
                 ]
             }
         ]
+    },
+    "contact": {
+        "headertext": "Let's connect!",        
+        "messages": {
+            "internettext": "Find me around the internet...",
+            "messagetext": "...or send me a message!",
+            "messagethanks": "Thanks for your message!  I'll be in touch soon.",
+            "hideFormOnInit": true
+        },
+        "mail": "echau18@outlook.com",
+        "links": {
+            "github": "https://www.github.com/ethch18",
+            "linkedin": "https://www.linkedin.com/in/echau18",
+            "university": "https://www.cs.uw.edu",
+            "envelope-o": "mailto:echau18@outlook.com"
+        }
     }
 }

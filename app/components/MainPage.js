@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Splash from './sections/Splash';
 import Bio from './sections/Bio';
 import Project from './sections/Project';
+import Contact from './sections/Contact';
 
 const propTypes = {
     data: PropTypes.object.isRequired,
@@ -39,6 +40,18 @@ export default class MainPage extends React.Component {
             />
         );
     }
+
+    getContact() {
+        const { headertext, messages, mail, links } = this.props.data.contact;
+        return (
+            <Contact
+                headertext={headertext}
+                messages={messages}
+                mail={mail}
+                links={links}
+            />
+        )
+    }
     
     render() {
         return (
@@ -46,6 +59,7 @@ export default class MainPage extends React.Component {
                 {this.getSplash()}
                 {this.getBio()}
                 {this.getProjects()}
+                {this.getContact()}
             </div>
         );
     }

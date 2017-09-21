@@ -29,3 +29,26 @@ export function injectRules(contents, rules) {
         });
     }
 }
+
+export function getParam(type) {
+    const queryString = window.location.search;
+    if (queryString) {
+        const tokens = queryString.substring(1).split('&');
+        for (let i = tokens.length - 1; i >= 0; i--) {
+            const token = tokens[i].split('=');
+            if (type === token[0]) {
+                return token[1];
+            }
+        }
+    }
+    return -1;
+}
+
+export const CommonAppProps = {
+    getSrc: () => parseInt(getParam('src')),
+    isRedirectFromFormSubmit: () => CommonAppProps.getSrc() === 1,
+};
+
+export const CommonConstants = {
+    formSubmitThankYou: "/?src=1#connect",
+}
