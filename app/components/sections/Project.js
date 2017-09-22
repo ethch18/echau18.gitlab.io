@@ -22,7 +22,7 @@ export default class Project extends React.Component {
 
     render() {
         return (
-            <div className="project-outerwrapper">
+            <div id="projects" className="project-outerwrapper">
                 <div className="project-innerwrapper shadow">
                     <div className="project-headline">My Projects</div>
                     <ProjectList 

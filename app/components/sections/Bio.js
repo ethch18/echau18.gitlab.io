@@ -21,7 +21,7 @@ export default function Bio(props) {
     });
 
     return (
-        <div className="bio-outerwrapper">
+        <div id="about" className="bio-outerwrapper">
             <div className="bio-innerwrapper shadow">
                 <div className="bio-headline">{headline}</div>
                 {sublineDivs}
