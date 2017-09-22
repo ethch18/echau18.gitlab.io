@@ -101,6 +101,7 @@ export default class Contact extends React.Component {
 
     showForm() {
         this.setState({ formVisible: true });
+        window.location.hash = "#contact"
     }
 
     render() {
@@ -121,7 +122,7 @@ export default class Contact extends React.Component {
             const messageForm = buildMessageForm(mail);
         
             return (
-                <div id="connect" className="contact-outerwrapper">
+                <div id="contact" className="contact-outerwrapper">
                     <div className="contact-innerwrapper shadow">
                         <div className="contact-header">{headertext}</div>
                         {internettext && <div className="contact-option">{internettext}</div>}

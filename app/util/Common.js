@@ -50,5 +50,5 @@ export const CommonAppProps = {
 };
 
 export const CommonConstants = {
-    formSubmitThankYou: "/?src=1#connect",
+    formSubmitThankYou: "/?src=1#contact",
 }
