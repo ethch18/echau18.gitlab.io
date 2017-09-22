@@ -101,7 +101,7 @@ export default class Contact extends React.Component {
 
     showForm() {
         this.setState({ formVisible: true });
-        window.location.hash = "#contact"
+        window.location.hash = '#contact';
     }
 
     render() {
