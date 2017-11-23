@@ -146,7 +146,7 @@ export default class Contact extends React.Component {
 
                                         ) :
                                         (
-                                            <a className="contact-option" onClick={this.showForm}>{messagetext}</a>
+                                            <a className="contact-option link-cursor" onClick={this.showForm}>{messagetext}</a>
                                         )
                                     }
                                 </div>
