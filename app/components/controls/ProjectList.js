@@ -23,7 +23,7 @@ export default function ProjectList(props) {
                 xs={12 / projects.length}
                 className="nopadding"
             >
-                <div className={`projectlist-item ${selectedClass}`}>
+                <div className={`projectlist-item link-cursor ${selectedClass}`}>
                     <img className="projectlist-preview" src={`${current.imageBasePath}preview.png`} />
                 </div>
             </Col>
