@@ -10,8 +10,8 @@
     "build": "brunch build --production"
   },
   "dependencies": {
-    "react": "^15.6.2",
-    "react-dom": "^15.6.2"
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   },
   "devDependencies": {
     "auto-reload-brunch": "^2.7.1",
@@ -23,7 +23,7 @@
     "clean-css-brunch": "^2",
     "json-brunch": "^1.5.4",
     "prop-types": "^15.6.1",
-    "react-bootstrap": "^0.31.5",
+    "react-bootstrap": "^0.32.1",
     "sass-brunch": "^2.10.4",
     "uglify-js-brunch": "^2"
   }
