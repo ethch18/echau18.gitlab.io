@@ -85,7 +85,7 @@
             {
                 "title": "Roast My Pantry",
                 "subtitle": "A beautiful recipe search engine",
-                "isActive": true,
+                "isActive": false,
                 "codeLink": "https://github.com/DRPropulsion/roastmypantry/tree/gh-pages",
                 "activeLink": "http://drpropulsion.github.io/roastmypantry",
                 "imageBasePath": "../../projects/roastmypantry",
