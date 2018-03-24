@@ -51,6 +51,79 @@
     "projects": {
         "projects": [
             {
+                "title": "Where's My Bus?",
+                "subtitle": "A lightweight transit tracker for the Seattle area",
+                "isActive": true,
+                "codeLink": "https://gitlab.com/echau18/obaview",
+                "activeLink": "https://echau18.gitlab.io/obaview",
+                "imageBasePath": "../../projects/wheresmybus",
+                "imageType": ".jpg",
+                "details": [
+                    ["Monitor bus and train arrivals in real time, without the bloat"],
+                    ["Implemented and a ", "{0}", "-based ", "{1}", " API wrapper to process incoming data"],
+                    ["Managed API deployment to ", "{0}", " for high-response request processing"],
+                    ["Designed and built a lightweight ", "{0}", " frontend for dynamic content delivery"]
+                ],
+                "rules": [
+                    {},
+                    {
+                        "Bottle": {
+                            "index" : 1,
+                            "bold": true
+                        },
+                        "Python": {
+                            "index" : 3,
+                            "bold": true
+                        }
+                    },
+                    {
+                        "Azure App Service": {
+                            "index" : 1,
+                            "bold": true
+                        }
+                    },
+                    {
+                        "React": {
+                            "index": 1,
+                            "bold": true
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "echau18.gitlab.io",
+                "subtitle": "A sleek, portable website generator",
+                "isActive": true,
+                "codeLink": "https://gitlab.com/echau18/echau18.gitlab.io",
+                "activeLink": "https://echau18.gitlab.io",
+                "imageBasePath": "../../projects/echau18gitlabio",
+                "imageType": ".jpg",
+                "details": [
+                    ["Generate a portfolio site by filling data into just one document"],
+                    ["Integrated ", "{0}", " and ", "{1}", " to design a modular, responsive frontend"],
+                    ["Configured a custom ", "{0}", " build system to streamline deploy process"]
+                ],
+                "rules": [
+                    {},
+                    {
+                        "React": {
+                            "index" : 1,
+                            "bold": true
+                        },
+                        "SCSS": {
+                            "index" : 3,
+                            "bold": true
+                        }
+                    },
+                    {
+                        "Brunch": {
+                            "index": 1,
+                            "bold": true
+                        }
+                    }
+                ]
+            },
+            {
                 "title": "Oh My English",
                 "subtitle": "A dynamic English phrase generator",
                 "isActive": true,
