@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Row, Col, FormGroup, FormControl, Button } from 'react-bootstrap';
+import { Row, Col, Input, Button, Container } from 'reactstrap';
 import { CommonAppProps, CommonConstants } from '../../util/Common';
 
 const propTypes = {
@@ -13,12 +13,11 @@ const propTypes = {
 function buildMessageForm(toAddress) {
     const action = `https://formspree.io/${toAddress}`;
     return (
-        <div>
+        <Container>
             <form action={action} method="POST">
                 <Row>
-                    <FormGroup>
                         <Col xs={12} sm={6}>
-                            <FormControl 
+                            <Input 
                                 type="text"
                                 name="name"
                                 placeholder="Name"
@@ -26,49 +25,40 @@ function buildMessageForm(toAddress) {
                             />
                         </Col>
                         <Col xs={12} sm={6}>
-                            <FormControl 
+                            <Input 
                                 type="email"
                                 name="_replyto"
                                 placeholder="Email"
                                 className="contact-formcomp"
                             />
                         </Col>
-                    </FormGroup>
-                    <FormGroup>
                         <Col xs={12}>
-                            <FormControl
+                            <Input
                                 type="text"
                                 name="_subject"
                                 placeholder="Subject"
                                 className="contact-formcomp"
                             />
                         </Col>
-                    </FormGroup>
-                    <FormGroup>
                         <Col xs={12}>
-                            <FormControl
-                                type="text"
+                            <Input
+                                type="textarea"
                                 name="message"
                                 placeholder="Message"
-                                componentClass="textarea"
                                 className="contact-formcomp contact-formcomp-tall"
                             />
                         </Col>
-                    </FormGroup>
-                    <FormGroup>
-                        <FormControl
+                        <Input
                             type="text"
                             name="_gotcha"
                             style={{display: "none"}}
                         />
-                        <FormControl
+                        <Input
                             type="hidden"
                             name="_next"
                             value={CommonConstants.formSubmitThankYou}
 
                         />
-                    </FormGroup>
-                    <FormGroup>
                         <Col className="col-centered">
                             <Button
                                 type="submit"
@@ -77,15 +67,12 @@ function buildMessageForm(toAddress) {
                                 Send Message
                             </Button>
                         </Col>
-                    </FormGroup>
                 </Row>
-                <FormGroup>
-                        <FormControl.Static className="contact-formwarn">
-                            (You'll be redirected to FormSpree's reCaptcha page.  Don't worry, this is just an anti-spam measure on their end!)
-                        </FormControl.Static>
-                    </FormGroup>
+                <Input plaintext className="contact-formwarn">
+                    (You'll be redirected to FormSpree's reCaptcha page.  Don't worry, this is just an anti-spam measure on their end!)
+                </Input>
             </form>
-        </div>
+        </Container>
     );
 }
 

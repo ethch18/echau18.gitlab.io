@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'reactstrap';
 
 const propTypes = {
     onChange: PropTypes.func.isRequired,
@@ -21,6 +21,7 @@ export default function ProjectList(props) {
                 onClick={() => props.onChange(i)}
                 key={`list-${i}`}
                 className="nopadding mx-auto"
+                xs={12 / projects.length}
             >
                 <div className={`projectlist-item link-cursor ${selectedClass}`}>
                     <img className="projectlist-preview" src={`${current.imageBasePath}preview.png`} />
