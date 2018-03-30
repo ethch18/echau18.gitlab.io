@@ -10,7 +10,8 @@
             ["I study Computer Science and Linguistics at the ", "{0}", "."],
             ["In my free time, I ride ", "{0}", ", ", "{1}", ", and ", "{2}", "."],
             ["I recently completed a ", "{0}", " software engineering internship at ", "{1}", "."],
-            ["Fields of Interest: Natural Language Processing, Machine Learning"]
+            ["Fields of Interest: Natural Language Processing, Machine Learning"],
+            ["You can find my resume ", "{0}", "."]
         ],
         "rules": [
             {
@@ -45,7 +46,14 @@
                     "color": "#2164f3"
                 }
             },
-            {}
+            {},
+            {
+                "here": {
+                    "index": 1,
+                    "link": "./Ethan-Chau-Resume.pdf",
+                    "color": "blue"
+                }
+            }
         ]
     },
     "projects": {
