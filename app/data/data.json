@@ -8,9 +8,13 @@
         "headline": "Hi, I'm Ethan.",
         "sublines": [
             ["I study Computer Science and Linguistics at the ", "{0}", "."],
-            ["In my free time, I ride ", "{0}", ", ", "{1}", ", and ", "{2}", "."],
-            ["I recently completed a ", "{0}", " software engineering internship at ", "{1}", "."],
             ["Fields of Interest: Natural Language Processing, Machine Learning"],
+            ["In my free time, I ride ", "{0}", ", ", "{1}", ", and ", "{2}", "."],
+            ["------"],
+            ["Undergraduate Research Assistant in ", "{0}", 
+                ", working on natural language entailment (Mar. '18 - Present)"],
+            ["{0}", " Software Engineer Intern at ", "{1}", 
+                " (June '17 - Sept. '17)"],
             ["You can find my resume ", "{0}", "."]
         ],
         "rules": [
@@ -21,6 +25,7 @@
                     "color": "#663ab6"
                 }
             },
+            {},
             {
                 "public transit": {
                     "index": 1,                    
@@ -35,18 +40,25 @@
                     "color": "#ccdb39"
                 }
             },
+            {},
             {
-                "full-stack": {
+                "UW's ARK lab": {
                     "index": 1,
+                    "link": "http://www.ark.cs.washington.edu",
+                    "color": "#663ab6"
+                }
+            },
+            {
+                "Full-stack": {
+                    "index": 0,
                     "color": "#5f7c8a"
                 },
                 "Indeed.com": {
-                    "index": 3,
+                    "index": 2,
                     "link": "https://www.indeed.com",
                     "color": "#2164f3"
                 }
             },
-            {},
             {
                 "here": {
                     "index": 1,
