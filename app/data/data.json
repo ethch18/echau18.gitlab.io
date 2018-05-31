@@ -80,7 +80,7 @@
                 "imageType": ".jpg",
                 "details": [
                     ["Monitor bus and train arrivals in real time, without the bloat"],
-                    ["Implemented and a ", "{0}", "-based ", "{1}", " API wrapper to process incoming data"],
+                    ["Implemented a ", "{0}", "-based ", "{1}", " API wrapper to process incoming data"],
                     ["Managed API deployment to ", "{0}", " for high-response request processing"],
                     ["Designed and built a lightweight ", "{0}", " frontend for dynamic content delivery"]
                 ],
