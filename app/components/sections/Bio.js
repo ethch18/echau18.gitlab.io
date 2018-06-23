@@ -5,8 +5,8 @@ import { injectRules } from '../../util/Common';
 const propTypes = {
     headline: PropTypes.string.isRequired,
     sublines: PropTypes.array,
-    rules: PropTypes.array,
-}
+    rules: PropTypes.array
+};
 
 export default function Bio(props) {
     const { headline, sublines, rules } = props;
@@ -16,7 +16,9 @@ export default function Bio(props) {
     const sublineDivs = [];
     sublines.forEach((subline, idx) => {
         sublineDivs.push(
-            <div key={`bio-${idx}`} className="bio-subline">{subline}</div>
+            <div key={`bio-${idx}`} className="bio-subline">
+                {subline}
+            </div>
         );
     });
 
@@ -34,5 +36,5 @@ Bio.propTypes = propTypes;
 
 Bio.defaultProps = {
     sublines: [],
-    rules: [],
-}
+    rules: []
+};

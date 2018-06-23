@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 import Splash from './sections/Splash';
 import Bio from './sections/Bio';
 import Project from './sections/Project';
@@ -7,14 +7,14 @@ import Contact from './sections/Contact';
 import Footer from './sections/Footer';
 
 const propTypes = {
-    data: PropTypes.object.isRequired,
-}
+    data: PropTypes.object.isRequired
+};
 
 export default class MainPage extends React.Component {
     getSplash() {
         const { firstName, lastName, headline } = this.props.data.splash;
         return (
-            <Splash  
+            <Splash
                 firstName={firstName}
                 lastName={lastName}
                 headline={headline}
@@ -24,22 +24,12 @@ export default class MainPage extends React.Component {
 
     getBio() {
         const { headline, sublines, rules } = this.props.data.bio;
-        return (
-            <Bio
-                headline={headline}
-                sublines={sublines}
-                rules={rules}
-            />
-        );
+        return <Bio headline={headline} sublines={sublines} rules={rules} />;
     }
 
     getProjects() {
         const { projects } = this.props.data.projects;
-        return (
-            <Project
-                projects={projects}
-            />
-        );
+        return <Project projects={projects} />;
     }
 
     getContact() {
@@ -51,19 +41,14 @@ export default class MainPage extends React.Component {
                 mail={mail}
                 links={links}
             />
-        )
+        );
     }
 
     getFooter() {
         const { footertext, copyright } = this.props.data.footer;
-        return (
-            <Footer
-                footertext={footertext}
-                copyright={copyright}
-            />
-        )
+        return <Footer footertext={footertext} copyright={copyright} />;
     }
-    
+
     render() {
         return (
             <div className="mainpage-wrapper">

@@ -1,0 +1,14 @@
+#root {
+    .scrolly {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        background: url(scrolly.png);
+        background: url(scrolly.svg),
+            linear-gradient(transparent, transparent);
+        background-repeat: no-repeat;
+    }
+}

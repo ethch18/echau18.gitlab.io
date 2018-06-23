@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="200px" width="200px">
+    <path 
+        id="outer"
+        d="M35 15 L20 35 L5 15"
+        stroke="white"
+        stroke-width="2px"
+        fill="none"
+    />
+    <path
+        id="inner"
+        d="M35 5 L20 25 L5 5"
+        stroke="white"
+        stroke-width="2px"
+        fill="none"
+    />
+</svg>
