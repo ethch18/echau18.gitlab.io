@@ -11,6 +11,8 @@
             ["Fields of Interest: Natural Language Processing, Machine Learning"],
             ["In my free time, I ride ", "{0}", ", ", "{1}", ", and ", "{2}", "."],
             ["------"],
+            ["{0}", " Software Engineer Intern at ", "{1}", 
+                " (June '18 - Present)"],
             ["Undergraduate Research Assistant in ", "{0}", 
                 ", working on natural language entailment (Mar. '18 - Present)"],
             ["{0}", " Software Engineer Intern at ", "{1}", 
@@ -41,6 +43,17 @@
                 }
             },
             {},
+            {
+                "Backend/Data": {
+                    "index": 0,
+                    "color": "#5f7c8a"
+                },
+                "Indeed.com": {
+                    "index": 2,
+                    "link": "https://www.indeed.com",
+                    "color": "#2164f3"
+                }
+            },
             {
                 "UW's ARK lab": {
                     "index": 1,
