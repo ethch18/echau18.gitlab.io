@@ -9,7 +9,7 @@ exports.plugins = {
         presets: ['env', 'react'],
     },
     sass: {
-        mode: 'ruby',
+        mode: 'native',
         options: {
             includePaths: ["app/styles"],
             precision: 8,
