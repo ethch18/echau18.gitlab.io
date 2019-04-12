@@ -168,7 +168,7 @@
             {
                 "title": "Oh My English",
                 "subtitle": "A dynamic English phrase generator",
-                "isActive": true,
+                "isActive": false,
                 "codeLink": "https://github.com/ethch18/OhMyEnglish-Public",
                 "imageBasePath": "../../projects/ohmyenglish",
                 "imageType": ".jpg",
