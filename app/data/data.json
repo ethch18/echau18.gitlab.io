@@ -12,11 +12,13 @@
             ["In my free time, I ride ", "{0}", ", ", "{1}", ", and ", "{2}", "."],
             ["------"],
             ["Undergraduate Research Assistant in ", "{0}", 
-                ", working on natural language entailment (Mar. '18 - Present)"],
+                ", working on low-resource transfer learning, Mar. '18 - Present"],
+            ["Undergraduate Teaching Assistant for ", "{0}", 
+                " (Natural Language Processing), Jan. '19 - Mar. '19"],
             ["{0}", " Software Engineer Intern at ", "{1}", 
-                " (June '18 - Aug. '18)"],
+                ", June '18 - Aug. '18"],
             ["{0}", " Software Engineer Intern at ", "{1}", 
-                " (June '17 - Sept. '17)"],
+                ", June '17 - Sept. '17"],
             ["You can find my resume ", "{0}", "."]
         ],
         "rules": [
@@ -47,6 +49,13 @@
                 "UW's ARK NLP lab": {
                     "index": 1,
                     "link": "http://www.ark.cs.washington.edu",
+                    "color": "#663ab6"
+                }
+            },
+            {
+                "CSE 447/547M": {
+                    "index": 1,
+                    "link": "https://courses.cs.washington.edu/courses/cse447/19wi/",
                     "color": "#663ab6"
                 }
             },
