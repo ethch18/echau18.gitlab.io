@@ -8,7 +8,7 @@
         "headline": "Hi, I'm Ethan.",
         "sublines": [
             ["I study Computer Science and Linguistics at the ", "{0}", "."],
-            ["Fields of Interest: Natural Language Processing, Machine Learning"],
+            ["Interests: Natural Language Processing, Machine Learning + Platform Engineering"],
             ["In my free time, I ride ", "{0}", ", ", "{1}", ", and ", "{2}", "."],
             ["------"],
             ["Undergraduate Research Assistant in ", "{0}", 
@@ -277,6 +277,6 @@
     },
     "footer": {
         "footertext": "Thanks for visiting!",
-        "copyright": "Ethan Chau 2018"
+        "copyright": "Ethan Chau 2019"
     }
 }
