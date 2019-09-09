@@ -12,7 +12,8 @@
             ["In my free time, I ride ", "{0}", ", ", "{1}", ", and ", "{2}", "."],
             ["------"],
             ["Undergraduate Research Assistant in ", "{0}", 
-                ", working on low-resource transfer learning, Mar. '18 - Present"],
+                ", working on low-resource representations, Mar. '18 - Present"],
+            ["{0}", " Software Engineer Intern at ", "{1}", ", June '19 - Sept. '19"],
             ["Undergraduate Teaching Assistant for ", "{0}", 
                 " (Natural Language Processing), Jan. '19 - Mar. '19"],
             ["{0}", " Software Engineer Intern at ", "{1}", 
@@ -50,6 +51,17 @@
                     "index": 1,
                     "link": "http://www.ark.cs.washington.edu",
                     "color": "#663ab6"
+                }
+            },
+            {
+                "Backend/Infra": {
+                    "index": 0,
+                    "color": "#5f7c8a"
+                },
+                "Facebook": {
+                    "index": 2,
+                    "link": "https://www.facebook.com",
+                    "color": "#3b5998"
                 }
             },
             {
