@@ -10,11 +10,11 @@
     "build": "brunch build --production"
   },
   "dependencies": {
-    "react": "^16.5.0",
-    "react-dom": "^16.5.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
     "react-scrollchor": "^5.1.0",
     "reactstrap": "^5.0.0",
-    "sass": "^1.13.2"
+    "sass": "^1.26.3"
   },
   "devDependencies": {
     "auto-reload-brunch": "^2.7.1",
@@ -25,8 +25,8 @@
     "brunch": "^2.10.17",
     "clean-css-brunch": "^2",
     "json-brunch": "^1.5.4",
-    "prop-types": "^15.6.2",
-    "sass-brunch": "^2.10.7",
+    "prop-types": "^15.7.2",
+    "sass-brunch": "^2.10.8",
     "uglify-js-brunch": "^2"
   }
 }
