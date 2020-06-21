@@ -48,9 +48,17 @@
                 "label": "Research Interests",
                 "headline": "Research Interests",
 				"sublines": [
-					["Coming soon!"]
+					[
+						"I'm broadly interested in developing robust, interpretable language systems for languages that lack high-quality data.  ",
+						"This manifests in at least two distinct \"areas\": adversarial training techniques and low-resource NLP.  ",
+						"I'm currently designing methods for contextual word representation in low-resource situations.",
+					],
+					[
+						"Previously, I investigated approaches to domain adaptation across semi-similar domains."
+					]
 				],
 				"rules": [
+					{},
 					{}
 				]
             },
