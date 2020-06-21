@@ -4,14 +4,15 @@ import ProjectList from '../controls/ProjectList';
 import ProjectItem from '../controls/ProjectItem';
 
 const propTypes = {
-    projects: PropTypes.arrayOf(PropTypes.object).isRequired,
+    title: PropTypes.string,
+    projects: PropTypes.arrayOf(PropTypes.object).isRequired
 };
 
 export default class Project extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            selectedIndex: 0,
+            selectedIndex: 0
         };
         this.updateCurrent = this.updateCurrent.bind(this);
     }
@@ -24,8 +25,8 @@ export default class Project extends React.Component {
         return (
             <div id="projects" className="project-outerwrapper">
                 <div className="project-innerwrapper shadow">
-                    <div className="project-headline">My Projects</div>
-                    <ProjectList 
+                    <div className="project-headline">{this.props.title}</div>
+                    <ProjectList
                         onChange={this.updateCurrent}
                         projects={this.props.projects}
                         selectedIndex={this.state.selectedIndex}
@@ -40,3 +41,7 @@ export default class Project extends React.Component {
 }
 
 Project.propTypes = propTypes;
+
+Project.defaultProps = {
+    title: 'My Projects'
+};

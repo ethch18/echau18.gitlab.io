@@ -164,6 +164,7 @@
         ]
     },
     "projects": {
+        "title": "Software",
         "projects": [
             {
                 "title": "Where's my bus?",
