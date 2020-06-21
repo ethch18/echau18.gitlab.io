@@ -50,8 +50,20 @@
         margin-bottom: 50px;
     }
     
-    .bio-subline {
+    .bio-subline, .bio-modaltoggle {
         font-size: 18px;
         margin-bottom: 5px;  
+    }
+
+    .bio-modaltoggle {
+        border-bottom: dotted 1px;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 18px;
+        margin: 10px;
+    }
+
+    .bio-modaltoggle:hover {
+        border-bottom: none;
     }
 }

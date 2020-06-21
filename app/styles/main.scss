@@ -18,7 +18,12 @@
     margin-left: 5px;
 }
 
-#root {
+.hanging {
+    padding-left: 30px;
+    text-indent: -30px;
+}
+
+#root, .modal {
     font-family: 'Raleway', sans-serif;    
     a {
         border-bottom: dotted 1px;

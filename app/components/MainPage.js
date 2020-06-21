@@ -12,41 +12,23 @@ const propTypes = {
 
 export default class MainPage extends React.Component {
     getSplash() {
-        const { firstName, lastName, headline } = this.props.data.splash;
-        return (
-            <Splash
-                firstName={firstName}
-                lastName={lastName}
-                headline={headline}
-            />
-        );
+        return <Splash {...this.props.data.splash} />;
     }
 
     getBio() {
-        const { headline, sublines, rules } = this.props.data.bio;
-        return <Bio headline={headline} sublines={sublines} rules={rules} />;
+        return <Bio {...this.props.data.bio} />;
     }
 
     getProjects() {
-        const { projects } = this.props.data.projects;
-        return <Project projects={projects} />;
+        return <Project {...this.props.data.projects} />;
     }
 
     getContact() {
-        const { headertext, messages, mail, links } = this.props.data.contact;
-        return (
-            <Contact
-                headertext={headertext}
-                messages={messages}
-                mail={mail}
-                links={links}
-            />
-        );
+        return <Contact {...this.props.data.contact} />;
     }
 
     getFooter() {
-        const { footertext, copyright } = this.props.data.footer;
-        return <Footer footertext={footertext} copyright={copyright} />;
+        return <Footer {...this.props.data.footer} />;
     }
 
     render() {

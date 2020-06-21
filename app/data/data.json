@@ -2,25 +2,16 @@
     "splash": {
         "firstName": "Ethan",
         "lastName": "Chau",
-        "headline": "Software Engineer | Linguist | Musician"
+        "headline": "NLP Researcher | Software Engineer | World Traveler"
     },
     "bio": {
         "headline": "Hi, I'm Ethan.",
         "sublines": [
-            ["I study Computer Science and Linguistics at the ", "{0}", "."],
-            ["Interests: Natural Language Processing, Machine Learning + Platform Engineering"],
+            ["I'm a Master's Student in Computer Science at the ", "{0}",
+             ", with a focus in Natural Language Processing."],
+            ["Before my M.S., I received a B.S. with Distinction in Computer Science (Data Science) ",
+             "and a B.A. in Linguistics at UW, advised by Professor ", "{0}", " ."],
             ["In my free time, I ride ", "{0}", ", ", "{1}", ", and ", "{2}", "."],
-            ["------"],
-            ["Undergraduate Research Assistant in ", "{0}", 
-                ", working on low-resource representations, Mar. '18 - Present"],
-            ["{0}", " Software Engineer Intern at ", "{1}", ", June '19 - Sept. '19"],
-            ["Undergraduate Teaching Assistant for ", "{0}", 
-                " (Natural Language Processing), Jan. '19 - Mar. '19"],
-            ["{0}", " Software Engineer Intern at ", "{1}", 
-                ", June '18 - Aug. '18"],
-            ["{0}", " Software Engineer Intern at ", "{1}", 
-                ", June '17 - Sept. '17"],
-            ["You can find my resume ", "{0}", "."]
         ],
         "rules": [
             {
@@ -30,7 +21,13 @@
                     "color": "#663ab6"
                 }
             },
-            {},
+            {
+                "Noah A. Smith": {
+                    "index": 2,
+                    "link": "https://homes.cs.washington.edu/~nasmith/",
+                    "color": "#663ab6"
+                }
+            },
             {
                 "public transit": {
                     "index": 1,                    
@@ -40,65 +37,121 @@
                     "index": 3,
                     "color": "#8bc34a"
                 },
-                "play music": {
+                "travel": {
                     "index": 5,
                     "color": "#ccdb39"
                 }
             },
-            {},
+        ],
+        "modals": [
             {
-                "UW's ARK NLP lab": {
-                    "index": 1,
-                    "link": "http://www.ark.cs.washington.edu",
-                    "color": "#663ab6"
-                }
+                "label": "Research Interests",
+                "headline": "Research Interests",
+				"sublines": [
+					["Coming soon!"]
+				],
+				"rules": [
+					{}
+				]
             },
             {
-                "Backend/Infra": {
-                    "index": 0,
-                    "color": "#5f7c8a"
-                },
-                "Facebook": {
-                    "index": 2,
-                    "link": "https://www.facebook.com",
-                    "color": "#3b5998"
-                }
+                "label": "Publications",
+                "headline": "Publications",
+                "sublines": [
+					["Coming soon!  In the meantime, check out my CV ",
+					 "{0}", "!"],
+				],
+                "rules": [
+					{
+						"here": {
+							"index": 1,
+							"link": "./Ethan-Chau-CV.pdf",
+							"color": "blue"
+						}
+					}
+				]
             },
             {
-                "CSE 447/547M": {
-                    "index": 1,
-                    "link": "https://courses.cs.washington.edu/courses/cse447/19wi/",
-                    "color": "#663ab6"
-                }
-            },
-            {
-                "Backend/Data": {
-                    "index": 0,
-                    "color": "#5f7c8a"
-                },
-                "Indeed.com": {
-                    "index": 2,
-                    "link": "https://www.indeed.com",
-                    "color": "#2164f3"
-                }
-            },
-            {
-                "Full-stack": {
-                    "index": 0,
-                    "color": "#5f7c8a"
-                },
-                "Indeed.com": {
-                    "index": 2,
-                    "link": "https://www.indeed.com",
-                    "color": "#2164f3"
-                }
-            },
-            {
-                "here": {
-                    "index": 1,
-                    "link": "./Ethan-Chau-Resume.pdf",
-                    "color": "blue"
-                }
+                "label": "Experience",
+                "headline": "Experience",
+                "hangingContent": true,
+                "sublines": [
+                    ["Check out my resume ", "{0}", "!"],
+					["Jun. '20 -- Present: ", "{0}", " Engineer Intern at ", "{1}"],
+                    ["Mar. '18 -- Present: NLP Research Assistant in ", "{0}"],
+                    ["Jun. '19 -- Sept. '19: ", "{0}", " Software Engineer Intern at ", "{1}"],
+                    ["Jan. '19 -- Mar. '19: Teaching Assistant for ", "{0}", 
+                        " (Natural Language Processing)"],
+                    ["Jun. '18 -- Aug. '18: ", "{0}", " Software Engineer Intern at ", "{1}"],
+                    ["Jun. '17 -- Sept. '17: ", "{0}", " Software Engineer Intern at ", "{1}"],
+                ],
+                "rules": [
+                    {
+                        "here": {
+                            "index": 1,
+                            "link": "./Ethan-Chau-Resume.pdf",
+                            "color": "blue"
+                        }
+                    },
+                    {
+                        "Machine Learning": {
+                            "index": 1,
+                            "color": "#5f7c8a"
+                        },
+                        "Facebook": {
+                            "index": 3,
+                            "link": "https://www.facebook.com",
+                            "color": "#3b5998"
+                        }
+                    },
+                    {
+                        "Noah's ARK NLP Lab": {
+                            "index": 1,
+                            "link": "http://www.ark.cs.washington.edu",
+                            "color": "#663ab6"
+                        }
+                    },
+                    {
+                        "Backend/Infra": {
+                            "index": 1,
+                            "color": "#5f7c8a"
+                        },
+                        "Facebook": {
+                            "index": 3,
+                            "link": "https://www.facebook.com",
+                            "color": "#3b5998"
+                        }
+                    },
+                    {
+                        "CSE 447/547M": {
+                            "index": 1,
+                            "link": "https://courses.cs.washington.edu/courses/cse447/19wi/",
+                            "color": "#663ab6"
+                        }
+                    },
+                    {
+                        "Backend/Data": {
+                            "index": 1,
+                            "color": "#5f7c8a"
+                        },
+                        "Indeed.com": {
+                            "index": 3,
+                            "link": "https://www.indeed.com",
+                            "color": "#2164f3"
+                        }
+                    },
+                    {
+                        "Full-Stack": {
+                            "index": 1,
+                            "color": "#5f7c8a"
+                        },
+                        "Indeed.com": {
+                            "index": 3,
+                            "link": "https://www.indeed.com",
+                            "color": "#2164f3"
+                        }
+                    },
+                ]
             }
         ]
     },
@@ -284,11 +337,11 @@
             "gitlab": "https://www.gitlab.com/echau18",
             "linkedin": "https://www.linkedin.com/in/echau18",
             "envelope-o": "mailto:echau18@outlook.com",
-            "university": "https://www.cs.uw.edu"
+            "twitter": "https://www.twitter.com/echau18"
         }
     },
     "footer": {
         "footertext": "Thanks for visiting!",
-        "copyright": "Ethan Chau 2019"
+        "copyright": "Ethan Chau 2020"
     }
 }
