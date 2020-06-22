@@ -29,8 +29,23 @@ export default function BioModal(props) {
         );
     });
 
+    const backdropTransition = {
+        timeout: 0
+    };
+
+    const modalTransition = {
+        timeout: 25
+    };
+
     return (
-        <Modal isOpen={isOpen} toggle={toggle} centered size={'lg'}>
+        <Modal
+            isOpen={isOpen}
+            toggle={toggle}
+            centered
+            size={'lg'}
+            backdropTransition={backdropTransition}
+            modalTransition={modalTransition}
+        >
             <ModalHeader toggle={toggle}>{headline}</ModalHeader>
             <ModalBody>{sublineDivs}</ModalBody>
         </Modal>

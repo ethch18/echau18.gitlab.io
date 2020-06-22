@@ -10,7 +10,8 @@
             ["I'm a Master's Student in Computer Science at the ", "{0}",
              ", with a focus in Natural Language Processing."],
             ["Before my M.S., I received a B.S. with Distinction in Computer Science (Data Science) ",
-             "and a B.A. in Linguistics at UW, advised by Professor ", "{0}", " ."],
+             "and a B.A. in Linguistics at UW, advised by Professor ", "{0}", ".  ",
+             "During Autumn 2019, I was an exchange student in the ", "{1}", " at ", "{2}", " in Switzerland."],
             ["In my free time, I ride ", "{0}", ", ", "{1}", ", and ", "{2}", "."],
         ],
         "rules": [
@@ -26,6 +27,16 @@
                     "index": 2,
                     "link": "https://homes.cs.washington.edu/~nasmith/",
                     "color": "#663ab6"
+                },
+                "Computer Science Department": {
+                    "index": 5,
+                    "link": "https://inf.ethz.ch/",
+                    "color": "#485a2c"
+                },
+                "ETH Zürich": {
+                    "index": 7,
+                    "link": "https://ethz.ch",
+                    "color": "#1f407a"
                 }
             },
             {
