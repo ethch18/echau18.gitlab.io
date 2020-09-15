@@ -77,8 +77,27 @@
                 "label": "Publications",
                 "headline": "Publications",
                 "sublines": [
-					["Coming soon!  In the meantime, check out my CV ",
-					 "{0}", "!"],
+					["Check out my CV ", "{0}", "!"],
+                    ['------------'],
+                    {
+                        "type": "publication",
+                        "pubType": "InProceedings",
+                        "authors": ["Ethan C. Chau", "Lucy H. Lin", "Noah A. Smith"],
+                        "myIndex": 0,
+                        "title": "Parsing with Multilingual BERT, a Small Treebank, and a Small Corpus",
+                        "conference": "Findings of EMNLP (to appear)",
+                        "year": 2020
+                    },
+                    {
+                        "type": "publication",
+                        "pubType": "misc",
+                        "authors": ["Ethan C. Chau"],
+                        "myIndex": 0,
+                        "title": "The Annotated Config",
+                        "year": 2019,
+                        "url": "https://github.com/allenai/allennlp/tree/v0.9.0/tutorials#external-tutorials",
+                        "note": "(AllenNLP Featured Tutorial)"
+                    }
 				],
                 "rules": [
 					{
@@ -87,7 +106,10 @@
 							"link": "./Ethan-Chau-CV.pdf",
 							"color": "blue"
 						}
-					}
+					},
+                    {},
+                    {},
+                    {},
 				]
             },
             {
@@ -96,8 +118,9 @@
                 "hangingContent": true,
                 "sublines": [
                     ["Check out my resume ", "{0}", "!"],
-					["Jun. '20 -- Present: ", "{0}", " Engineer Intern at ", "{1}"],
+                    ['------------'],
                     ["Mar. '18 -- Present: NLP Research Assistant in ", "{0}"],
+					["Jun. '20 -- Sept. '20: ", "{0}", " Engineer Intern at ", "{1}"],
                     ["Jun. '19 -- Sept. '19: ", "{0}", " Software Engineer Intern at ", "{1}"],
                     ["Jan. '19 -- Mar. '19: Teaching Assistant for ", "{0}", 
                         " (Natural Language Processing)"],
@@ -112,6 +135,14 @@
                             "color": "blue"
                         }
                     },
+                    {},
+                    {
+                        "Noah's ARK NLP Lab": {
+                            "index": 1,
+                            "link": "http://www.ark.cs.washington.edu",
+                            "color": "#663ab6"
+                        }
+                    },
                     {
                         "Machine Learning": {
                             "index": 1,
@@ -121,13 +152,6 @@
                             "index": 3,
                             "link": "https://www.facebook.com",
                             "color": "#3b5998"
-                        }
-                    },
-                    {
-                        "Noah's ARK NLP Lab": {
-                            "index": 1,
-                            "link": "http://www.ark.cs.washington.edu",
-                            "color": "#663ab6"
                         }
                     },
                     {
