@@ -85,8 +85,8 @@
                         "authors": ["Ethan C. Chau", "Lucy H. Lin", "Noah A. Smith"],
                         "myIndex": 0,
                         "title": "Parsing with Multilingual BERT, a Small Corpus, and a Small Treebank",
-                        "conference": "Findings of EMNLP (to appear)",
-                        "url": "https://arxiv.org/abs/2009.14124",
+                        "conference": "Findings of EMNLP",
+                        "url": "https://www.aclweb.org/anthology/2020.findings-emnlp.118",
                         "year": 2020
                     },
                     {
