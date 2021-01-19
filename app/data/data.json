@@ -121,6 +121,10 @@
                     ["Check out my resume ", "{0}", "!"],
                     ['------------'],
                     ["Mar. '18 -- Present: NLP Research Assistant in ", "{0}"],
+                    ["Jan. '21 -- Present: Teaching Assistant for ", "{0}", 
+                        " (Natural Language Processing)"],
+                    ["Sept. '20 - Dec. '20: Teaching Assistant for ", "{0}",
+                        " (Machine Learning)"],
 					["Jun. '20 -- Sept. '20: ", "{0}", " Engineer Intern at ", "{1}"],
                     ["Jun. '19 -- Sept. '19: ", "{0}", " Software Engineer Intern at ", "{1}"],
                     ["Jan. '19 -- Mar. '19: Teaching Assistant for ", "{0}", 
@@ -141,6 +145,20 @@
                         "Noah's ARK NLP Lab": {
                             "index": 1,
                             "link": "http://www.ark.cs.washington.edu",
+                            "color": "#663ab6"
+                        }
+                    },
+                    {
+                        "CSE 447/517": {
+                            "index": 1,
+                            "link": "https://courses.cs.washington.edu/courses/cse447/21wi/",
+                            "color": "#663ab6"
+                        }
+                    },
+                    {
+                        "CSE 446/546": {
+                            "index": 1,
+                            "link": "https://courses.cs.washington.edu/courses/cse446/20au/",
                             "color": "#663ab6"
                         }
                     },
