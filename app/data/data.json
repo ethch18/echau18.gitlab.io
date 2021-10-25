@@ -7,8 +7,9 @@
     "bio": {
         "headline": "Hi, I'm Ethan.",
         "sublines": [
-            ["I'm a Master's Student in Computer Science at the ", "{0}",
-             ", with a focus in Natural Language Processing."],
+            ["I'm a recent M.S. graduate in Computer Science from the ", "{0}",
+             ", with a focus in Natural Language Processing.  I was advised ",
+             "by Professor ", "{1}", "."],
             ["Before my M.S., I received a B.S. with Distinction in Computer Science (Data Science) ",
              "and a B.A. in Linguistics at UW, advised by Professor ", "{0}", ".  ",
              "During Autumn 2019, I was an exchange student in the ", "{1}", " at ", "{2}", " in Switzerland."],
@@ -20,7 +21,12 @@
                     "index": 1,
                     "link": "https://www.uw.edu",
                     "color": "#663ab6"
-                }
+                },
+                "Noah A. Smith": {
+                    "index": 4,
+                    "link": "https://homes.cs.washington.edu/~nasmith/",
+                    "color": "#663ab6"
+                },
             },
             {
                 "Noah A. Smith": {
@@ -79,6 +85,16 @@
                 "sublines": [
 					["Check out my CV ", "{0}", "!"],
                     ['------------'],
+                    {
+                        "type": "publication",
+                        "pubType": "InProceedings",
+                        "authors": ["Ethan C. Chau", "Noah A. Smith"],
+                        "myIndex": 0,
+                        "title": "Specializing Multilingual Language Models: An Empirical Study",
+                        "conference": "Workshop on Multilingual Representation Learning (to appear)",
+                        "url": "https://arxiv.org/abs/2106.09063",
+                        "year": 2021
+                    },
                     {
                         "type": "publication",
                         "pubType": "InProceedings",
