@@ -84,7 +84,7 @@ function parsePublication(dict) {
         title = dict['title'];
     }
 
-    const note = dict['note'] || '';
+    const note = <b> {dict['note'] || ''}</b>;
 
     if (dict['pubType'] === 'InProceedings') {
         const conference = <em>{dict['conference']}</em>;

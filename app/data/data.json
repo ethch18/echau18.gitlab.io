@@ -91,9 +91,10 @@
                         "authors": ["Ethan C. Chau", "Noah A. Smith"],
                         "myIndex": 0,
                         "title": "Specializing Multilingual Language Models: An Empirical Study",
-                        "conference": "Workshop on Multilingual Representation Learning (to appear)",
-                        "url": "https://arxiv.org/abs/2106.09063",
-                        "year": 2021
+                        "conference": "Workshop on Multilingual Representation Learning",
+                        "url": "https://aclanthology.org/2021.mrl-1.5/",
+                        "year": 2021,
+                        "note": "(Best Paper Honorable Mention)"
                     },
                     {
                         "type": "publication",
@@ -124,6 +125,7 @@
 							"color": "blue"
 						}
 					},
+                    {},
                     {},
                     {},
                     {},
