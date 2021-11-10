@@ -71,7 +71,8 @@
 						"I'm currently designing methods for contextual word representation in low-resource situations.",
 					],
 					[
-						"Previously, I investigated approaches to domain adaptation across semi-similar domains."
+						"In past projects, I've investigated efficient softmax alternatives, data-driven methods for modeling lexical borrowing, ",
+                        "and approaches to domain adaptation across semi-similar domains."
 					]
 				],
 				"rules": [
