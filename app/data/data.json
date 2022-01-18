@@ -11,7 +11,7 @@
             ["Before joining Microsoft, I received an M.S. in Computer Science (with a focus in Natural ",
              "Language Processing), a B.S. with Distinction in Computer Science ",
              "(Data Science), and a B.A. in Linguistics at the ", "{0}", 
-             "advised by Professor ", "{1}", ".",
+             "advised by Professor ", "{1}", ".  ",
              "During Autumn 2019, I was an exchange student in the ", "{2}", " at ", "{3}", " in Switzerland."],
             ["In my free time, I ", "{0}", ", ", "{1}", ", and ", "{2}", "."],
         ],
