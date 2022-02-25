@@ -8,6 +8,11 @@
         "headline": "Hi, I'm Ethan.",
         "sublines": [
             ["I'm an Applied Scientist at ", "{0}", " working on search."],
+            ["Before joining Microsoft, I received an M.S. in Computer Science (with a focus in Natural ",
+             "Language Processing), a B.S. with Distinction in Computer Science ",
+             "(Data Science), and a B.A. in Linguistics at the ", "{0}", 
+             ", advised by Professor ", "{1}", ".  ",
+             "During Autumn 2019, I was an exchange student in the ", "{2}", " at ", "{3}", " in Switzerland."],
             ["In my free time, I ", "{0}", ", ", "{1}", ", and ", "{2}", "."],
         ],
         "rules": [
@@ -17,6 +22,28 @@
                     "link": "https://www.microsoft.com/",
                     "color": "#f35325"
                 },
+            },
+            {
+                "University of Washington": {
+                    "index": 3,
+                    "link": "https://www.uw.edu",
+                    "color": "#663ab6"
+                },
+                "Noah A. Smith": {
+                    "index": 5,
+                    "link": "https://homes.cs.washington.edu/~nasmith/",
+                    "color": "#663ab6"
+                },
+                "Computer Science Department": {
+                    "index": 8,
+                    "link": "https://inf.ethz.ch/",
+                    "color": "#485a2c"
+                },
+                "ETH Zürich": {
+                    "index": 10,
+                    "link": "https://ethz.ch",
+                    "color": "#1f407a"
+                }
             },
             {
                 "ride public transit": {
