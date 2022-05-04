@@ -259,7 +259,7 @@
             {
                 "title": "Where's my bus?",
                 "subtitle": "A lightweight transit tracker for the Seattle area",
-                "isActive": false,
+                "isActive": true,
                 "codeLink": "https://gitlab.com/echau18/obaview",
                 "activeLink": "https://echau18.gitlab.io/obaview",
                 "imageBasePath": "../../projects/wheresmybus",
