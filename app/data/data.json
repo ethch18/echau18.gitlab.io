@@ -7,7 +7,7 @@
     "bio": {
         "headline": "Hi, I'm Ethan.",
         "sublines": [
-            ["I'm an Applied Scientist at ", "{0}", " working on search."],
+            ["I'm an Applied Scientist at ", "{0}", " working on multilinguality and dense retrieval."],
             ["Before joining Microsoft, I received an M.S. in Computer Science (with a focus in Natural ",
              "Language Processing), a B.S. with Distinction in Computer Science ",
              "(Data Science), and a B.A. in Linguistics at the ", "{0}", 
@@ -34,7 +34,7 @@
                     "link": "https://homes.cs.washington.edu/~nasmith/",
                     "color": "#663ab6"
                 },
-                "Computer Science Department": {
+                "Computer Science Department (D-INFK)": {
                     "index": 8,
                     "link": "https://inf.ethz.ch/",
                     "color": "#485a2c"
@@ -66,12 +66,14 @@
                 "headline": "Research Interests",
 				"sublines": [
 					[
-						"I'm broadly interested in developing robust, interpretable language systems for languages that lack high-quality data.  ",
-						"This manifests in at least two distinct \"areas\": adversarial training techniques and low-resource NLP.  ",
-						"I'm currently designing methods for contextual word representation in low-resource situations.",
+						"I'm broadly interested in developing robust, interpretable language systems for languages that lack high-quality data, ",
+                        "including by leveraging insights from other language.",
+						"This can be described by at least four distinct keywords: adversarial robustness, low-resource NLP, multilinguality, and language model pretraining.  ",
+						"I currently study and build such systems in the context of dense retrieval.",
 					],
 					[
-						"In past projects, I've investigated efficient softmax alternatives, data-driven methods for modeling lexical borrowing, ",
+                        "While at UW, I designed methods for contextualized word representation in low-resource language varieties.  ",
+						"I also investigated efficient softmax alternatives, data-driven methods for modeling lexical borrowing, ",
                         "and approaches to domain adaptation across semi-similar domains."
 					]
 				],
@@ -307,7 +309,8 @@
                 "details": [
                     ["Generate a portfolio site by filling data into just one document"],
                     ["Integrated ", "{0}", " and ", "{1}", " to design a modular, responsive frontend"],
-                    ["Configured a custom ", "{0}", " build system to streamline deploy process"]
+                    ["Configured a custom ", "{0}", " build system to streamline deploy process"],
+                    ["Yes, you're looking at an example of this right now"]
                 ],
                 "rules": [
                     {},
