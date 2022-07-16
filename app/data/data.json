@@ -11,8 +11,8 @@
             ["Before joining Microsoft, I received an M.S. in Computer Science (with a focus in Natural ",
              "Language Processing), a B.S. with Distinction in Computer Science ",
              "(Data Science), and a B.A. in Linguistics at the ", "{0}", 
-             ", advised by Professor ", "{1}", ".  ",
-             "During Autumn 2019, I was an exchange student in the ", "{2}", " at ", "{3}", " in Switzerland."],
+             ", advised by Professor ", "{1}", ".  "],
+            ["During Autumn 2019, I was an exchange student in the ", "{2}", " at ", "{3}", " in Switzerland."],
             ["In my free time, I ", "{0}", ", ", "{1}", ", and ", "{2}", "."],
         ],
         "rules": [
@@ -67,10 +67,19 @@
 				"sublines": [
 					[
 						"I'm broadly interested in developing robust, interpretable language systems for languages that lack high-quality data, ",
-                        "including by leveraging insights from other language.",
-						"This can be described by at least four distinct keywords: adversarial robustness, low-resource NLP, multilinguality, and language model pretraining.  ",
+                        "including by leveraging insights from other language.  ",
+						"This can be described by at least four distinct keywords: ",
+                        "{0}",
+                        ", ",
+                        "{1}",
+                        ", ",
+                        "{2}",
+                        ", ",
+                        "{3}",
+                        ".  ",
 						"I currently study and build such systems in the context of dense retrieval.",
 					],
+                    [],
 					[
                         "While at UW, I designed methods for contextualized word representation in low-resource language varieties.  ",
 						"I also investigated efficient softmax alternatives, data-driven methods for modeling lexical borrowing, ",
@@ -78,6 +87,24 @@
 					]
 				],
 				"rules": [
+                    {
+                        "adversarial robustness": {
+                            "index": 3,
+                            "bold": true
+                        },
+                        "low-resource NLP": {
+                            "index": 5,
+                            "bold": true
+                        },
+                        "multilinguality": {
+                            "index": 7,
+                            "bold": true
+                        },
+                        "language model training": {
+                            "index": 9,
+                            "bold": true
+                        }
+                    }
 					{},
 					{}
 				]
