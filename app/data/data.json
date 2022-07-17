@@ -12,7 +12,7 @@
              "Language Processing), a B.S. with Distinction in Computer Science ",
              "(Data Science), and a B.A. in Linguistics at the ", "{0}", 
              ", advised by Professor ", "{1}", ".  "],
-            ["During Autumn 2019, I was an exchange student in the ", "{2}", " at ", "{3}", " in Switzerland."],
+            ["During Autumn 2019, I was an exchange student in the ", "{0}", " at ", "{1}", " in Switzerland."],
             ["In my free time, I ", "{0}", ", ", "{1}", ", and ", "{2}", "."],
         ],
         "rules": [
@@ -33,14 +33,16 @@
                     "index": 5,
                     "link": "https://homes.cs.washington.edu/~nasmith/",
                     "color": "#663ab6"
-                },
+                }
+            },
+            {
                 "Computer Science Department (D-INFK)": {
-                    "index": 8,
+                    "index": 1,
                     "link": "https://inf.ethz.ch/",
                     "color": "#485a2c"
                 },
                 "ETH Zürich": {
-                    "index": 10,
+                    "index": 3,
                     "link": "https://ethz.ch",
                     "color": "#1f407a"
                 }
@@ -66,20 +68,20 @@
                 "headline": "Research Interests",
 				"sublines": [
 					[
-						"I'm broadly interested in developing robust, interpretable language systems for languages that lack high-quality data, ",
-                        "including by leveraging insights from other language.  ",
+						"I'm broadly interested in developing robust, interpretable technology for many languages, ",
+                        "especially ones that lack high-quality data.  ",
 						"This can be described by at least four distinct keywords: ",
                         "{0}",
                         ", ",
                         "{1}",
                         ", ",
                         "{2}",
-                        ", ",
+                        ", and ",
                         "{3}",
                         ".  ",
-						"I currently study and build such systems in the context of dense retrieval.",
-					],
-                    [],
+						"I currently study and build such systems in the context of dense retrieval."
+                    ],
+                    ['------------'],
 					[
                         "While at UW, I designed methods for contextualized word representation in low-resource language varieties.  ",
 						"I also investigated efficient softmax alternatives, data-driven methods for modeling lexical borrowing, ",
@@ -312,7 +314,7 @@
                         }
                     },
                     {
-                        "Azure App Service": {
+                        "Azure App Service/Firebase": {
                             "index" : 1,
                             "bold": true
                         }
@@ -337,7 +339,7 @@
                     ["Generate a portfolio site by filling data into just one document"],
                     ["Integrated ", "{0}", " and ", "{1}", " to design a modular, responsive frontend"],
                     ["Configured a custom ", "{0}", " build system to streamline deploy process"],
-                    ["Yes, you're looking at an example of this right now"]
+                    ["Yes, you're looking at an example of this right now 😄"]
                 ],
                 "rules": [
                     {},
