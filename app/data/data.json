@@ -7,7 +7,7 @@
     "bio": {
         "headline": "Hi, I'm Ethan.",
         "sublines": [
-            ["I'm an Applied Scientist at ", "{0}", " working on multilinguality and dense retrieval."],
+            ["I'm an Applied Scientist at ", "{0}", " working on representation learning, multilinguality, and dense retrieval for search."],
             ["Before joining Microsoft, I received an M.S. in Computer Science (with a focus in Natural ",
              "Language Processing), a B.S. with Distinction in Computer Science ",
              "(Data Science), and a B.A. in Linguistics at the ", "{0}", 
