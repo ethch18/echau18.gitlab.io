@@ -7,7 +7,7 @@
     "bio": {
         "headline": "Hi, I'm Ethan.",
         "sublines": [
-            ["I'm an Applied Scientist at ", "{0}", " working on representation learning, multilinguality, and dense retrieval for search."],
+            ["I'm a Senior Applied Scientist at ", "{0}", " working on representation learning, multilinguality, and dense retrieval for search."],
             ["Before joining Microsoft, I received an M.S. in Computer Science (with a focus in Natural ",
              "Language Processing), a B.S. with Distinction in Computer Science ",
              "(Data Science), and a B.A. in Linguistics at the ", "{0}", 
@@ -191,6 +191,9 @@
                     {},
                     {},
                     {},
+                    {},
+                    {},
+                    {},
 				]
             },
             {
@@ -200,7 +203,9 @@
                 "sublines": [
                     ["Check out my resume ", "{0}", "!"],
                     ['------------'],
-                    ["Jan. '22 -- Present: Applied Scientist at ", "{0}"],
+                    ["Sept. '23 -- Present: Senior Applied Scientist at ", "{0}"],
+                    ["Sept. '22 -- Aug. '23: Applied Scientist 2 at ", "{0}"],
+                    ["Jan. '22 -- Aug. '22: Applied Scientist at ", "{0}"],
                     ["Mar. '18 -- Nov. '21: NLP Research Assistant in ", "{0}"],
                     ["Mar. '21 -- Jun. '21: Teaching Assistant for ", "{0}",
                         " (Machine Learning)"],
@@ -224,6 +229,20 @@
                         }
                     },
                     {},
+                    {
+                        "Microsoft": {
+                            "index": 1,
+                            "link": "https://www.microsoft.com/",
+                            "color": "#f35325"
+                        },
+                    },
+                    {
+                        "Microsoft": {
+                            "index": 1,
+                            "link": "https://www.microsoft.com/",
+                            "color": "#f35325"
+                        },
+                    },
                     {
                         "Microsoft": {
                             "index": 1,
