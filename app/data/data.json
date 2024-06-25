@@ -125,7 +125,7 @@
                         "title": "Dodo: Dynamic Contextual Compression for Decoder-only LMs",
                         "conference": "ACL (to appear)",
                         "url": "https://arxiv.org/abs/2310.02409",
-                        "year": 2024,
+                        "year": 2024
                     },
                     {
                         "type": "publication",
@@ -135,7 +135,7 @@
                         "title": "Automatic Pair Construction for Contrastive Post-training",
                         "conference": "Findings of NAACL",
                         "url": "https://aclanthology.org/2024.findings-naacl.11/",
-                        "year": 2024,
+                        "year": 2024
                     },
                     {
                         "type": "publication",
@@ -145,7 +145,18 @@
                         "title": "Researchy Questions: A Dataset of Multi-Perspective, Decompisitional Questions for LLM Web Agents",
                         "eprint": "arXiv:2402.17896 [cs.CL]",
                         "url": "https://arxiv.org/abs/2402.17896",
-                        "year": 2024,
+                        "year": 2024
+                    },
+                    {
+                        "type": "publication",
+                        "pubType": "InProceedings",
+                        "authors": ["Ethan C. Chau", "Noah A. Smith"],
+                        "myIndex": 0,
+                        "title": "Specializing Multilingual Language Models: An Empirical Study",
+                        "conference": "Workshop on Multilingual Representation Learning",
+                        "url": "https://aclanthology.org/2021.mrl-1.5/",
+                        "year": 2021,
+                        "note": "(Best Paper Honorable Mention)"
                     },
                     {
                         "type": "publication",
