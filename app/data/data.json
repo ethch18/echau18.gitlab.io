@@ -123,8 +123,8 @@
                         "authors": ["Guanghui Qin", "Corby Rosset", "Ethan C. Chau", "Nikhil Rao", "Benjamin Van Durme"],
                         "myIndex": 2,
                         "title": "Dodo: Dynamic Contextual Compression for Decoder-only LMs",
-                        "conference": "ACL (to appear)",
-                        "url": "https://arxiv.org/abs/2310.02409",
+                        "conference": "ACL",
+                        "url": "https://aclanthology.org/2024.acl-long.536/",
                         "year": 2024
                     },
                     {
@@ -143,9 +143,9 @@
                         "authors": ["Corby Rosset", "Ho-Lam Chung", "Guanghui Qin", "Ethan C. Chau", "Zhuo Feng", "Ahmed Awadallah", "Jennifer Neville", "Nikhil Rao"],
                         "myIndex": 3,
                         "title": "Researchy Questions: A Dataset of Multi-Perspective, Decompisitional Questions for LLM Web Agents",
-                        "eprint": "arXiv:2402.17896 [cs.CL]",
-                        "url": "https://arxiv.org/abs/2402.17896",
-                        "year": 2024
+                        "conference": "SIGIR",
+                        "url": "https://sigir2025.dei.unipd.it/detailed-program/paper?paper=d2ed45a52bc0edfa11c2064e9edee8bf",
+                        "year": 2025
                     },
                     {
                         "type": "publication",
