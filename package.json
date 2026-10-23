@@ -10,6 +10,7 @@
     "build": "brunch build --production"
   },
   "dependencies": {
+    "better-sqlite3": "5.4.3",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-scrollchor": "^5.1.0",

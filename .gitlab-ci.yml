@@ -3,7 +3,7 @@
 image: node:10.16
 
 before_script:
-- apt-get -qq update && apt-get -qq install -y ruby-sass
+- apt-get -qq update && apt-get -qq install -y ruby-sass build-essential python3
 
 pages:
   environment: prod
