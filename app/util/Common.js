@@ -87,12 +87,20 @@ function parsePublication(dict) {
     const note = <b> {dict['note'] || ''}</b>;
 
     if (dict['pubType'] === 'InProceedings') {
-        const conference = <em>{dict['conference']}</em>;
-        return [
-            <span>
-                {author}. {dict['year']}. {title}. In {conference}. {note}
-            </span>
-        ];
+        if (dict['eprint']) {
+            return [
+                <span>
+                    {author}. {dict['year']}. {title}. {dict['eprint']}. {note}
+                </span>
+            ];
+        } else {
+            const conference = <em>{dict['conference']}</em>;
+            return [
+                <span>
+                    {author}. {dict['year']}. {title}. In {conference}. {note}
+                </span>
+            ];
+        }
     } else if (dict['pubType'] === 'misc') {
         return [
             <span>
